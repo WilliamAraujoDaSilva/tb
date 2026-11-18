@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Controles de acessibilidade e personalização de leitura do CORELESS.">
+  <title>Acessibilidade — CORELESS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="standalone-page">
+  <a class="skip-link" href="#accessMain">Pular para as configurações</a>
+  <header class="site-header">
+    <nav class="navbar container-fluid page-shell" aria-label="Navegação da página de acessibilidade">
+      <a class="brand-lockup" href="index.html"><span class="brand-heart" aria-hidden="true">♥</span><span>CORELESS</span></a>
+      <a class="text-link" href="index.html">← Voltar ao início</a>
+    </nav>
+  </header>
+  <main id="accessMain" class="standalone-main container-fluid page-shell">
+    <section class="standalone-settings" aria-labelledby="accessPageTitle">
+      <p class="eyebrow">PERSONALIZE A EXPERIÊNCIA</p>
+      <h1 id="accessPageTitle">Acessibilidade</h1>
+      <p class="standalone-lead">Ajuste a apresentação da página para facilitar a leitura e a navegação. As preferências ficam salvas neste navegador.</p>
+      <div class="settings-panel">
+        <div class="setting-row"><div><strong>Modo de exibição</strong><p>Alterne entre tema escuro e claro.</p></div><button class="setting-switch" id="pageThemeToggle" type="button">Modo claro</button></div>
+        <div class="setting-row"><div><strong>Tamanho do texto</strong><p>Use controles para ampliar, reduzir ou restaurar a fonte.</p></div><div class="setting-buttons"><button id="pageFontDown" type="button" aria-label="Diminuir tamanho da fonte">A−</button><button id="pageFontReset" type="button" aria-label="Restaurar tamanho da fonte">A</button><button id="pageFontUp" type="button" aria-label="Aumentar tamanho da fonte">A+</button></div></div>
+        <div class="setting-row"><div><strong>Alto contraste</strong><p>Reforça a separação entre textos, bordas e fundos.</p></div><button class="setting-switch" id="pageContrastToggle" type="button" aria-pressed="false">Desativado</button></div>
+        <div class="setting-row"><div><strong>Movimento reduzido</strong><p>Reduz animações e transições decorativas.</p></div><button class="setting-switch" id="pageMotionToggle" type="button" aria-pressed="false">Desativado</button></div>
+      </div>
+      <p id="accessPageStatus" class="form-note" role="status" aria-live="polite">As alterações são aplicadas imediatamente.</p>
+      <div class="access-principles"><h2>Outros recursos de acessibilidade</h2><ul><li>Navegação por teclado e foco visível.</li><li>Rótulos associados aos campos de formulário.</li><li>Textos alternativos em imagens informativas.</li><li>Informações identificadas por texto e símbolos, não apenas por cor.</li><li>Estrutura semântica com títulos e regiões de conteúdo.</li></ul></div>
+      <a class="btn btn-core" href="index.html">Voltar ao CORELESS <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+  <script src="js/accessibility-page.js" defer></script>
+</body>
+</html>

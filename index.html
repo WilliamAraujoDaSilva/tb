@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CORELESS: aprenda regras, combinações e curiosidades sobre jogos de cartas em uma plataforma educativa e acessível.">
+  <meta name="theme-color" content="#0b0b0b">
+  <title>CORELESS — Aprenda jogos de cartas</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX"
+        crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header sticky-top">
+    <nav class="navbar navbar-expand-xl container-fluid page-shell" aria-label="Navegação principal">
+      <a class="navbar-brand brand-lockup" href="#inicio" aria-label="CORELESS, página inicial">
+        <span class="brand-heart" aria-hidden="true">♥</span>
+        <span>CORELESS</span>
+      </a>
+
+      <button class="navbar-toggler nav-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav mx-auto align-items-xl-center gap-xl-3">
+          <li class="nav-item"><a class="nav-link active" href="#inicio">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#jogos">Jogos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#aprender">Aprender</a></li>
+          <li class="nav-item"><a class="nav-link" href="#biblioteca">Biblioteca</a></li>
+          <li class="nav-item"><a class="nav-link" href="#desafios">Desafios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+        </ul>
+        <div class="header-actions d-flex align-items-center gap-2 mt-3 mt-xl-0">
+          <label class="search-box" for="globalSearch">
+            <span aria-hidden="true">⌕</span>
+            <input id="globalSearch" type="search" placeholder="Buscar jogos..." autocomplete="off">
+          </label>
+          <button class="icon-button" id="themeToggle" type="button" aria-label="Ativar modo claro" title="Alternar tema">☼</button>
+          <button class="icon-button" id="accessibilityOpen" type="button" aria-label="Abrir opções de acessibilidade" title="Acessibilidade">◉</button>
+          <button class="icon-button profile-button" id="loginOpen" type="button" aria-label="Entrar ou acessar perfil" title="Entrar">♙</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero-section" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container-fluid page-shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">THE ART OF PLAYING CARDS <span></span></p>
+          <h1 id="hero-title">Cada carta tem uma história.<br><em>Cada jogo, uma nova estratégia.</em></h1>
+          <p class="hero-description">Aprenda, explore e descubra o universo dos jogos de cartas com explicações claras, exemplos visuais e desafios para testar o que você aprendeu.</p>
+          <div class="hero-actions">
+            <a class="btn btn-core" href="#jogos">Explorar jogos <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#aprender">Como funciona <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-note"><span class="note-dot"></span> Conhecimento, lógica e diversão — tudo em um só lugar.</div>
+        </div>
+        <div class="hero-art" role="img" aria-label="Composição ilustrativa de cartas de baralho com os quatro naipes">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="floating-suit suit-heart" aria-hidden="true">♥</div>
+          <div class="floating-suit suit-spade" aria-hidden="true">♠</div>
+          <div class="playing-card card-back card-back-left" aria-hidden="true"><span class="card-pattern">✦</span></div>
+          <div class="playing-card card-back card-back-bottom" aria-hidden="true"><span class="card-pattern">✦</span></div>
+          <div class="playing-card card-front card-ace" aria-hidden="true"><span class="card-corner">A<br>♥</span><strong>♥</strong><span class="card-corner bottom">A<br>♥</span></div>
+          <div class="playing-card card-front card-king" aria-hidden="true"><span class="card-corner">K<br>♠</span><strong>♛</strong><span class="card-corner bottom">K<br>♠</span></div>
+          <div class="playing-card card-front card-queen" aria-hidden="true"><span class="card-corner">Q<br>♦</span><strong>♕</strong><span class="card-corner bottom">Q<br>♦</span></div>
+          <div class="art-caption"><span>01 / 04</span><span>THE FOUR SUITS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-strip" aria-label="Benefícios da plataforma">
+      <div class="container-fluid page-shell feature-grid">
+        <div class="feature-item"><span class="feature-icon" aria-hidden="true">▤</span><span>Regras e estratégias<br>para todos os níveis</span></div>
+        <div class="feature-item"><span class="feature-icon" aria-hidden="true">♧</span><span>Diversos jogos<br>em um só lugar</span></div>
+        <div class="feature-item"><span class="feature-icon" aria-hidden="true">▥</span><span>Desafios interativos<br>para testar seu conhecimento</span></div>
+        <div class="feature-item"><span class="feature-icon" aria-hidden="true">♜</span><span>Aprenda no seu ritmo<br>com nosso guia completo</span></div>
+      </div>
+    </section>
+
+    <section class="section-block" id="jogos" aria-labelledby="games-title">
+      <div class="container-fluid page-shell">
+        <div class="section-heading">
+          <div><p class="eyebrow">ENCONTRE SEU PRÓXIMO JOGO</p><h2 id="games-title">Jogos populares <span class="red-dash"></span></h2></div>
+          <a class="text-link" href="#catalogo">Ver todos os jogos <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="catalog-toolbar" id="catalogo">
+          <div class="filter-group" role="group" aria-label="Filtrar jogos por categoria">
+            <button class="filter-chip active" type="button" data-filter="all" aria-pressed="true">Todos</button>
+            <button class="filter-chip" type="button" data-filter="tradicional" aria-pressed="false">Tradicionais</button>
+            <button class="filter-chip" type="button" data-filter="estrategia" aria-pressed="false">Estratégia</button>
+            <button class="filter-chip" type="button" data-filter="individual" aria-pressed="false">Individuais</button>
+          </div>
+          <p class="results-count" id="resultsCount" aria-live="polite">6 jogos disponíveis</p>
+        </div>
+        <div class="row g-3 game-grid" id="gameGrid">
+          <div class="col-12 col-md-6 col-xl-4 game-column" data-category="estrategia tradicional" data-search="pife pif paf combinações trincas sequências cartas">
+            <article class="game-card">
+              <div class="game-art art-pife" aria-hidden="true"><span class="art-label">CARD GAME / 01</span><div class="mini-card mini-one">A<br><b>♠</b></div><div class="mini-card mini-two">K<br><b>♥</b></div><div class="mini-card mini-three">Q<br><b>♦</b></div><span class="art-suit">♠</span></div>
+              <div class="game-info"><div><p class="game-category">TRADICIONAL · COMBINAÇÕES</p><h3>Pife</h3><p>Aprenda trincas, sequências e combinações válidas do jogo.</p></div><button class="round-arrow learn-game" type="button" data-game="pife" aria-label="Conhecer o conteúdo educativo de Pife">↗</button></div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4 game-column" data-category="tradicional estrategia" data-search="truco paulista mineiro manilha rodadas cartas">
+            <article class="game-card">
+              <div class="game-art art-truco" aria-hidden="true"><span class="art-label">CARD GAME / 02</span><div class="mini-card mini-one">7<br><b>♦</b></div><div class="mini-card mini-two">A<br><b>♠</b></div><div class="mini-card mini-three">3<br><b>♥</b></div><span class="art-suit">♥</span></div>
+              <div class="game-info"><div><p class="game-category">TRADICIONAL · BRASIL</p><h3>Truco</h3><p>Entenda manilhas, rodadas, pontos e variantes regionais.</p></div><button class="round-arrow learn-game" type="button" data-game="truco" aria-label="Conhecer o conteúdo educativo de Truco">↗</button></div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4 game-column" data-category="estrategia" data-search="copas vazas corações pontuação cartas">
+            <article class="game-card">
+              <div class="game-art art-copas" aria-hidden="true"><span class="art-label">CARD GAME / 03</span><div class="mini-card mini-one">J<br><b>♣</b></div><div class="mini-card mini-two">A<br><b>♠</b></div><span class="art-suit">♥</span></div>
+              <div class="game-info"><div><p class="game-category">VAZAS · PONTUAÇÃO</p><h3>Copas</h3><p>Conheça o objetivo, as vazas e a contagem de pontos.</p></div><button class="round-arrow learn-game" type="button" data-game="copas" aria-label="Conhecer o conteúdo educativo de Copas">↗</button></div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4 game-column" data-category="tradicional estrategia" data-search="buraco canastra sequências cartas parceria">
+            <article class="game-card">
+              <div class="game-art art-buraco" aria-hidden="true"><span class="art-label">CARD GAME / 04</span><div class="mini-card mini-one">7<br><b>♥</b></div><div class="mini-card mini-two">8<br><b>♥</b></div><div class="mini-card mini-three">9<br><b>♥</b></div><span class="art-suit">♥</span></div>
+              <div class="game-info"><div><p class="game-category">PARCERIA · SEQUÊNCIAS</p><h3>Buraco</h3><p>Aprenda sequências, trincas, canastras e pontuação.</p></div><button class="round-arrow learn-game" type="button" data-game="buraco" aria-label="Conhecer o conteúdo educativo de Buraco">↗</button></div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4 game-column" data-category="individual" data-search="paciência solitaire jogo individual sequências">
+            <article class="game-card">
+              <div class="game-art art-solitaire" aria-hidden="true"><span class="art-label">CARD GAME / 05</span><div class="mini-card mini-one">Q<br><b>♣</b></div><div class="mini-card mini-two">J<br><b>♦</b></div><span class="art-suit">♣</span></div>
+              <div class="game-info"><div><p class="game-category">INDIVIDUAL · ORGANIZAÇÃO</p><h3>Paciência</h3><p>Organize sequências e descubra como concluir o jogo.</p></div><button class="round-arrow learn-game" type="button" data-game="paciencia" aria-label="Conhecer o conteúdo educativo de Paciência">↗</button></div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4 game-column" data-category="estrategia tradicional" data-search="bridge duplas vazas leilão cartas">
+            <article class="game-card">
+              <div class="game-art art-bridge" aria-hidden="true"><span class="art-label">CARD GAME / 06</span><div class="mini-card mini-one">A<br><b>♦</b></div><div class="mini-card mini-two">K<br><b>♣</b></div><div class="mini-card mini-three">Q<br><b>♠</b></div><span class="art-suit">♣</span></div>
+              <div class="game-info"><div><p class="game-category">DUPLAS · RACIOCÍNIO</p><h3>Bridge</h3><p>Conheça a estrutura de duplas, contratos e vazas.</p></div><button class="round-arrow learn-game" type="button" data-game="bridge" aria-label="Conhecer o conteúdo educativo de Bridge">↗</button></div>
+            </article>
+          </div>
+        </div>
+        <p class="empty-state" id="emptyState" hidden>Nenhum jogo encontrado. Tente outro termo ou filtro.</p>
+      </div>
+    </section>
+
+    <section class="learning-section section-block" id="aprender" aria-labelledby="learn-title">
+      <div class="container-fluid page-shell">
+        <div class="section-heading">
+          <div><p class="eyebrow">APRENDA NO SEU RITMO</p><h2 id="learn-title">Do primeiro passo ao domínio das regras</h2></div>
+          <p class="heading-note">Conteúdo organizado para aprender sem complicação.</p>
+        </div>
+        <div class="learning-carousel" aria-roledescription="carrossel" aria-label="Trilhas de aprendizagem">
+          <div class="learning-slide active" data-slide="0" aria-hidden="false">
+            <div class="learning-slide-copy"><span class="slide-index">01 — FUNDAMENTOS</span><h3>Conheça o baralho.</h3><p>Descubra os quatro naipes, os valores das cartas e como identificar os elementos de um baralho tradicional.</p><a class="btn btn-core btn-sm" href="#biblioteca">Abrir biblioteca <span aria-hidden="true">→</span></a></div>
+            <img src="assets/learning-suits.svg" alt="Ilustração dos quatro naipes: copas, espadas, ouros e paus" class="slide-image">
+          </div>
+          <div class="learning-slide" data-slide="1" aria-hidden="true" hidden>
+            <div class="learning-slide-copy"><span class="slide-index">02 — REGRAS E COMBINAÇÕES</span><h3>Entenda como cada jogo funciona.</h3><p>Compare objetivos, preparação, sequência de jogadas e vocabulário de diferentes modalidades.</p><a class="btn btn-core btn-sm" href="#jogos">Ver catálogo <span aria-hidden="true">→</span></a></div>
+            <img src="assets/learning-rules.svg" alt="Ilustração de cartas organizadas em sequência" class="slide-image">
+          </div>
+          <div class="learning-slide" data-slide="2" aria-hidden="true" hidden>
+            <div class="learning-slide-copy"><span class="slide-index">03 — PRATIQUE O QUE APRENDEU</span><h3>Teste seu conhecimento.</h3><p>Responda perguntas rápidas sobre naipes, regras gerais e conceitos apresentados nas aulas.</p><a class="btn btn-core btn-sm" href="#desafios">Ir para desafios <span aria-hidden="true">→</span></a></div>
+            <img src="assets/learning-quiz.svg" alt="Ilustração de uma pergunta de múltipla escolha com cartas" class="slide-image">
+          </div>
+          <div class="carousel-controls">
+            <div class="carousel-dots" role="group" aria-label="Selecionar slide">
+              <button type="button" class="carousel-dot active" data-go-slide="0" aria-label="Slide 1" aria-pressed="true"></button>
+              <button type="button" class="carousel-dot" data-go-slide="1" aria-label="Slide 2" aria-pressed="false"></button>
+              <button type="button" class="carousel-dot" data-go-slide="2" aria-label="Slide 3" aria-pressed="false"></button>
+            </div>
+            <div class="carousel-arrows"><button type="button" id="previousSlide" class="carousel-arrow" aria-label="Slide anterior">←</button><button type="button" id="nextSlide" class="carousel-arrow" aria-label="Próximo slide">→</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block library-section" id="biblioteca" aria-labelledby="library-title">
+      <div class="container-fluid page-shell">
+        <div class="section-heading"><div><p class="eyebrow">CONSULTA RÁPIDA</p><h2 id="library-title">Biblioteca de cartas</h2></div><p class="heading-note">Selecione um naipe para conhecer seu símbolo.</p></div>
+        <div class="suit-grid">
+          <button class="suit-card" type="button" data-suit="Copas"><span class="suit-symbol red-suit">♥</span><strong>Copas</strong><small>Hearts</small></button>
+          <button class="suit-card" type="button" data-suit="Espadas"><span class="suit-symbol">♠</span><strong>Espadas</strong><small>Spades</small></button>
+          <button class="suit-card" type="button" data-suit="Ouros"><span class="suit-symbol red-suit">♦</span><strong>Ouros</strong><small>Diamonds</small></button>
+          <button class="suit-card" type="button" data-suit="Paus"><span class="suit-symbol">♣</span><strong>Paus</strong><small>Clubs</small></button>
+        </div>
+        <p class="suit-feedback" id="suitFeedback" role="status">Escolha um naipe para ver uma breve descrição.</p>
+      </div>
+    </section>
+
+    <section class="challenge-section section-block" id="desafios" aria-labelledby="challenge-title">
+      <div class="container-fluid page-shell challenge-grid">
+        <div><p class="eyebrow">APRENDER TAMBÉM É PRATICAR</p><h2 id="challenge-title">Um desafio rápido.<br><em>Um novo conhecimento.</em></h2><p class="challenge-intro">Responda três perguntas sobre elementos básicos do baralho. No final, veja seu resultado e revise as explicações.</p><div class="challenge-stat"><strong>03</strong><span>perguntas<br>de conhecimento geral</span></div></div>
+        <div class="quiz-card" id="quizCard">
+          <div class="quiz-topline"><span id="questionNumber">PERGUNTA 01 / 03</span><span id="quizProgressLabel">0% concluído</span></div>
+          <div class="progress quiz-progress" role="progressbar" aria-label="Progresso do desafio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="progress-bar" id="quizProgress"></div></div>
+          <h3 id="quizQuestion">Quantos naipes existem em um baralho tradicional de 52 cartas?</h3>
+          <div class="quiz-options" id="quizOptions">
+            <button type="button" class="quiz-option" data-answer="0"><span>A</span> Dois</button>
+            <button type="button" class="quiz-option" data-answer="1"><span>B</span> Quatro</button>
+            <button type="button" class="quiz-option" data-answer="2"><span>C</span> Seis</button>
+          </div>
+          <p class="quiz-feedback" id="quizFeedback" aria-live="polite">Escolha uma alternativa para continuar.</p>
+          <div class="quiz-footer"><span id="quizScore">Pontuação: 0</span><button type="button" id="nextQuestion" class="btn btn-core btn-sm" disabled>Próxima <span aria-hidden="true">→</span></button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-block" id="sobre" aria-labelledby="contact-title">
+      <div class="container-fluid page-shell contact-grid">
+        <div><p class="eyebrow">SOBRE O PROJETO</p><h2 id="contact-title">Todo jogo começa<br>com o primeiro aprendizado.</h2><p>O CORELESS é uma proposta educativa para reunir regras, conceitos e curiosidades sobre jogos de cartas. A ideia é tornar o aprendizado acessível, visual e organizado para diferentes níveis de experiência.</p><div class="contact-meta"><span>CORELESS</span><span>THE ART OF PLAYING CARDS</span></div></div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <h3>Fale com a gente</h3><p>Envie uma dúvida ou sugestão sobre a plataforma.</p>
+          <div class="mb-3"><label for="contactName" class="form-label">Nome</label><input class="form-control" id="contactName" name="name" type="text" autocomplete="name" required minlength="2"><div class="invalid-feedback">Informe seu nome.</div></div>
+          <div class="mb-3"><label for="contactEmail" class="form-label">E-mail</label><input class="form-control" id="contactEmail" name="email" type="email" autocomplete="email" required><div class="invalid-feedback">Informe um e-mail válido.</div></div>
+          <div class="mb-3"><label for="contactMessage" class="form-label">Mensagem</label><textarea class="form-control" id="contactMessage" name="message" rows="3" required minlength="10"></textarea><div class="invalid-feedback">Escreva uma mensagem com pelo menos 10 caracteres.</div></div>
+          <button class="btn btn-core" type="submit">Enviar mensagem <span aria-hidden="true">→</span></button>
+          <p class="form-note" id="contactStatus" role="status">Demonstração acadêmica: o formulário valida os dados no navegador, mas não envia mensagens a um servidor.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container-fluid page-shell footer-main"><a class="brand-lockup" href="#inicio"><span class="brand-heart" aria-hidden="true">♥</span><span>CORELESS</span></a><p>Aprenda as regras. Descubra os jogos. Amplie seu repertório.</p><nav aria-label="Links do rodapé"><a href="#jogos">Jogos</a><a href="#aprender">Aprender</a><a href="#biblioteca">Biblioteca</a><a href="#sobre">Contato</a><a href="login.html">Login</a><a href="acessibilidade.html">Acessibilidade</a></nav></div>
+    <div class="container-fluid page-shell footer-bottom"><span>© <span id="currentYear"></span> CORELESS — Projeto acadêmico de Desenvolvimento de Interfaces.</span><span>Feito para aprender, não para apostar.</span></div>
+  </footer>
+
+
+  <div class="modal fade" id="accessibilityModal" tabindex="-1" aria-labelledby="accessibilityTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered"><div class="modal-content core-modal"><div class="modal-header"><div><p class="eyebrow mb-1">PERSONALIZE A LEITURA</p><h2 class="modal-title" id="accessibilityTitle">Acessibilidade</h2></div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button></div><div class="modal-body">
+      <div class="setting-row"><div><strong>Tamanho do texto</strong><p>Altere a escala de leitura.</p></div><div class="setting-buttons"><button type="button" id="fontDecrease" aria-label="Diminuir fonte">A−</button><button type="button" id="fontReset" aria-label="Restaurar fonte">A</button><button type="button" id="fontIncrease" aria-label="Aumentar fonte">A+</button></div></div>
+      <div class="setting-row"><div><strong>Alto contraste</strong><p>Reforça a separação visual.</p></div><button type="button" class="setting-switch" id="contrastToggle" aria-pressed="false">Desativado</button></div>
+      <div class="setting-row"><div><strong>Movimento reduzido</strong><p>Reduz animações decorativas.</p></div><button type="button" class="setting-switch" id="motionToggle" aria-pressed="false">Desativado</button></div>
+      <p class="accessibility-note">As opções são aplicadas nesta página e podem ser alteradas novamente a qualquer momento.</p>
+    </div></div></div>
+  </div>
+
+  
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered"><div class="modal-content core-modal"><div class="modal-header"><div><p class="eyebrow mb-1">SUA ÁREA DE APRENDIZADO</p><h2 class="modal-title" id="loginTitle">Entrar no CORELESS</h2></div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button></div><div class="modal-body">
+      <form id="loginForm" novalidate><div class="mb-3"><label for="loginEmail" class="form-label">E-mail</label><input class="form-control" id="loginEmail" type="email" autocomplete="email" required><div class="invalid-feedback">Informe um e-mail válido.</div></div><div class="mb-3"><label for="loginPassword" class="form-label">Senha</label><input class="form-control" id="loginPassword" type="password" autocomplete="current-password" required minlength="4"><div class="invalid-feedback">Digite uma senha com pelo menos quatro caracteres para esta demonstração.</div></div><button class="btn btn-core w-100" type="submit">Entrar <span aria-hidden="true">→</span></button><p class="form-note mt-3" id="loginStatus" role="status">Acesso demonstrativo: não existe conta real. A senha não é armazenada nem enviada.</p></form>
+    </div></div></div>
+  </div>
+
+
+  <div class="modal fade" id="gameModal" tabindex="-1" aria-labelledby="gameModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content core-modal"><div class="modal-header"><div><p class="eyebrow mb-1" id="gameModalCategory">GUIA DO JOGO</p><h2 class="modal-title" id="gameModalTitle">Jogo</h2></div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button></div><div class="modal-body"><p class="game-modal-intro" id="gameModalIntro"></p><div class="row g-3"><div class="col-md-4"><div class="guide-point"><span>01</span><strong>Objetivo</strong><p id="gameModalGoal"></p></div></div><div class="col-md-4"><div class="guide-point"><span>02</span><strong>Preparação</strong><p id="gameModalSetup"></p></div></div><div class="col-md-4"><div class="guide-point"><span>03</span><strong>Conceitos</strong><p id="gameModalTerms"></p></div></div></div><p class="educational-disclaimer">Conteúdo informativo sobre regras e conceitos. O CORELESS não oferece apostas, dinheiro real ou serviços de jogos de azar.</p></div></div></div>
+  </div>
+
+  <div class="toast-container position-fixed bottom-0 end-0 p-3"><div id="siteToast" class="toast core-toast" role="status" aria-live="polite" aria-atomic="true"><div class="toast-body" id="toastMessage">Preferência atualizada.</div></div></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IE0hGzo9y5Bp9mYanr8Bu"
+          crossorigin="anonymous"></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

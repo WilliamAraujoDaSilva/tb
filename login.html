@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Página de acesso demonstrativo do CORELESS.">
+  <title>Entrar — CORELESS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="standalone-page">
+  <a class="skip-link" href="#loginMain">Pular para o formulário</a>
+  <header class="site-header">
+    <nav class="navbar container-fluid page-shell" aria-label="Navegação da página de login">
+      <a class="brand-lockup" href="index.html"><span class="brand-heart" aria-hidden="true">♥</span><span>CORELESS</span></a>
+      <a class="text-link" href="index.html">← Voltar ao início</a>
+    </nav>
+  </header>
+  <main id="loginMain" class="standalone-main container-fluid page-shell">
+    <section class="standalone-card login-page-card" aria-labelledby="loginPageTitle">
+      <div class="standalone-art" aria-hidden="true"><span class="standalone-heart">♥</span><span class="standalone-suit suit-a">♠</span><span class="standalone-suit suit-b">♦</span><span class="standalone-stamp">THE ART<br>OF CARDS</span></div>
+      <div class="standalone-form-wrap">
+        <p class="eyebrow">SUA ÁREA DE APRENDIZADO</p>
+        <h1 id="loginPageTitle">Bem-vindo de volta.</h1>
+        <p class="standalone-lead">Entre para acompanhar sua jornada de aprendizagem.</p>
+        <form id="loginPageForm" novalidate>
+          <div class="mb-3"><label for="pageEmail" class="form-label">E-mail</label><input class="form-control" id="pageEmail" name="email" type="email" autocomplete="email" required><div class="invalid-feedback">Informe um endereço de e-mail válido.</div></div>
+          <div class="mb-3"><label for="pagePassword" class="form-label">Senha</label><input class="form-control" id="pagePassword" name="password" type="password" autocomplete="current-password" minlength="4" required><div class="invalid-feedback">Digite ao menos quatro caracteres para esta demonstração.</div></div>
+          <button class="btn btn-core w-100" type="submit">Entrar <span aria-hidden="true">→</span></button>
+        </form>
+        <p class="form-note" id="loginPageStatus" role="status">Protótipo acadêmico: o formulário valida os campos localmente. Não existe cadastro real e a senha não é armazenada.</p>
+        <a class="standalone-back" href="index.html">Explorar a plataforma sem entrar</a>
+      </div>
+    </section>
+  </main>
+  <script src="js/login-page.js" defer></script>
+</body>
+</html>
