@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/35005256/README.md)
 # CORELESS — Plataforma educativa sobre jogos de cartas
 
 **Projeto acadêmico — Desenvolvimento de Interfaces, 2º semestre de 2026**
@@ -124,11 +123,27 @@ O projeto aplica práticas iniciais alinhadas à WCAG 2.2: estrutura semântica,
 
 Os valores de contraste devem ser testados novamente no navegador, em todos os estados e componentes. A presença desses recursos não significa, por si só, que uma auditoria formal de conformidade WCAG foi concluída. Recomenda-se testar com teclado, leitor de tela, ampliador e ferramenta de análise de contraste.
 
+## 10. Checklist de testes manuais para conferência
+
+- [ ] Abrir a página em computador e celular.
+- [ ] Usar Tab, Shift+Tab, Enter e Espaço para navegar.
+- [ ] Alternar entre tema claro e escuro na página inicial e na página de acessibilidade.
+- [ ] Aumentar e reduzir a fonte e testar alto contraste.
+- [ ] Ativar redução de movimento.
+- [ ] Pesquisar por “Truco” e testar os filtros.
+- [ ] Abrir e fechar os guias dos jogos.
+- [ ] Avançar e retroceder o carrossel.
+- [ ] Selecionar os quatro naipes.
+- [ ] Concluir o quiz e refazer o desafio.
+- [ ] Abrir e testar a página de login.
+- [ ] Enviar formulários vazios e preenchidos para conferir validação.
+- [ ] Verificar se a interface continua compreensível com imagens desativadas.
+
 ## 11. Publicação e versionamento
 
 O código pode ser versionado em um repositório GitHub. Uma forma de publicação é o GitHub Pages, que hospeda sites estáticos. Depois de criar o repositório e enviar os arquivos, a publicação deve ser ativada nas configurações do repositório. O endereço público só deve ser inserido no relatório após a publicação real.
 
-**Repositório GitHub:** https://github.com/WilliamAraujoDaSilva/tb 
+**Repositório GitHub:** `[inserir link do repositório após criar]`  
 **Site publicado:** `[inserir URL do GitHub Pages após publicar]`
 
 ## 12. Referências técnicas
